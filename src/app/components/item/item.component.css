@@ -2,3 +2,8 @@
     display:flex;
     justify-content: space-around;
 }
+
+.completed{
+    color: aquamarine;
+    text-decoration: line-through;
+}

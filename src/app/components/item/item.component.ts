@@ -17,4 +17,8 @@ export class ItemComponent {
     this.deleteItem.emit(item);
     console.log('seelimno')
   }
+
+  onToggle(item:Item){
+    item.completed = !item.completed;
+  }
 }
