@@ -4,6 +4,31 @@
 }
 
 .completed{
-    color: aquamarine;
+    color: rgb(141, 19, 19);
     text-decoration: line-through;
+}
+
+p{
+    font-family: 'Grape Nuts';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 39px;
+    color: #000000;
+}
+
+img{
+    width: 1.5rem;
+}
+
+button{
+    border:none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+@media (max-width:400px){
+    p{
+        font-size: 1rem;
+    }
 }

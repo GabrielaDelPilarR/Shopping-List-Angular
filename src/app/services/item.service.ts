@@ -17,14 +17,14 @@ export class ItemService {
       completed: false
     },
     {
-      id: 0,
+      id: 1,
       title: 'leche',
       price: 20,
       quantity: 4,
       completed: true
     },
     {
-      id: 0,
+      id: 2,
       title: 'leche',
       price: 20,
       quantity: 4,
@@ -42,7 +42,4 @@ export class ItemService {
   addItem(item:Item){
     this.items.unshift(item)
   }
-
-
-  
 }

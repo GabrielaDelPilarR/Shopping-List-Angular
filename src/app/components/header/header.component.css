@@ -1,0 +1,45 @@
+.banner-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 18rem;
+    border-radius: 1.5rem;
+    background-image: url('../../../assets/header.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    font-family: 'Grape Nuts';
+    font-size: 35px;
+}
+
+.container-button{
+    display: flex;
+    justify-content: center;
+    margin-inline: 10rem;
+    margin-block: 2rem;
+    gap: 1.5rem;
+}
+
+.button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 10rem;
+    padding-block: 1rem ;
+    padding-inline: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    border: none;
+    background-color:#D4D925;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Grape Nuts';
+    font-size: 1.8rem;
+    color: #000000;
+}
+
+img{
+    width: 17%;
+}
